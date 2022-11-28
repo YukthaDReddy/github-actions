@@ -2,3 +2,7 @@ name: Welcome file
 on: 
   pull_request: 
     types: [opened]
+jobs:
+  build:
+    name: build Job
+    runs-on: ubuntu-latest
