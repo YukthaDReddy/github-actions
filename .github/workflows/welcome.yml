@@ -1,0 +1,4 @@
+name: Welcome file
+on: 
+  pull_request: 
+    types: [opened]
